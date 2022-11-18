@@ -1,0 +1,613 @@
+                                                      /* FIRSTPAGE */
+
+body{
+  margin: auto;
+  padding: 0px;
+  display: inline-table
+}
+.homepage{
+  height: 898px;
+width: 410px;
+margin: auto;
+border-radius: 0px;
+background: #F7F8FA;
+
+}
+.firsthead{
+  height:100px;
+  width: 340px;
+  margin: auto;
+
+}
+.firsthead img{
+  margin-left: 305px;
+  margin-top: 20px;
+}
+.brief{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between
+}
+.brief p{
+  font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.8976px;
+    line-height: 32px;
+    /* or 121% */
+    
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.295873px;
+    font-feature-settings: 'ss07' on, 'cv07' on;
+    
+    /* Label Light / Primary */
+    text-transform: capitalize;
+    color: #000000;
+}
+.hide{
+  background: none;
+  border: none;
+  font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 9.49326px;
+line-height: 12px;
+height: 70px;
+
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #3478F6;
+}
+
+.listarea{
+  height:auto;
+width: 334px;
+
+
+}
+
+
+.open-button{
+  float: right;
+  
+  width: 42px;
+height: 42px;
+background: #000000;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+border-radius: 56px;
+}
+.open-button p{
+  color: #FAFAFA;
+  margin: -3px;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* padding-top: 12px
+px
+; */
+  font-size: 40px;
+}
+
+
+                                      /* open butn */
+    .form-popup {
+      
+    background: white;
+    display: none;
+    top: 15px;
+    left: 15px;
+    /* margin-top: -183px; */
+    /* margin: auto; */
+    position: fixed;
+    bottom: 0;
+    
+     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        /* SECONDPAGE */
+
+.box{
+    width: 375px;
+height: 812.09px;
+margin: auto;
+box-shadow: 0px 0px 2px gray;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+
+}
+
+header{
+   
+        height: 60px;
+        display: flex;
+        align-items: center;
+        column-gap: 90px;
+        border-bottom: 0.379227px solid gray;
+        background: rgba(249, 249, 249, 0.94);
+box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(10px);
+border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+header button{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 9px;
+gap: 5px;
+
+/* position: absolute; */
+width: 78.98px;
+height: 42px;
+left: 0px;
+top: calc(50% - 42px/2);
+
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+
+background: none;
+border: none;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.408px;
+color: #007AFF;
+
+/* flex: none;
+order: 1;
+flex-grow: 0; */
+}
+
+.entry{
+    margin: auto;
+    width: 312px;
+    /* box-shadow: 1px 4.5px 15px rgb(0 0 0 / 30%); */
+    height: 500px;
+}
+.entry h1{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+/* or 121% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.374px;
+font-feature-settings: 'ss07' on, 'cv07' on;
+
+/* Label Light / Primary */
+
+color: #000000;
+}
+label{
+  /* padding-right: 30px; */
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.38px;
+
+/* Label Color / Light / Primary */
+
+color: #000000;
+}
+#myInput {
+    height: 31px;
+    width: 215px;
+    margin-top: 30px;
+    border: none;
+opacity: 0.2;
+border-bottom: 0.379227px solid #000000;
+}  
+/* label{
+    
+background: #FFFFFF;
+border: 2px solid #E8E8E8;
+border-radius: 6px;
+} */
+/* #myUL li{    display: flex;
+  column-gap: 10px;} */
+  ul li.checked {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: -0.24px;
+    text-decoration-line: line-through;
+    color: #A3A3A3;
+  } 
+
+  #myUL label{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    
+    
+    letter-spacing: -0.24px;
+    
+    /* gray/500 */
+    
+    color: #737373;
+
+  }
+  input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+   
+  }
+  input[type=checkbox]:checked {
+   accent-color: black;
+   
+  }
+  
+
+#myUL li{
+  margin-top: 20px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  cursor: default;
+  font-weight: 500;
+  font-size: 15px;
+  list-style: none;
+  line-height: 20px;
+  display: flex;
+  /* width: 413px; */
+  align-items: center;
+  letter-spacing: -0.24px;
+  color: #737373;
+} 
+#myUL p{
+  font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.08px;
+
+/* gray/400 */
+
+color: #A3A3A3;
+/* padding-left: 24px */
+} 
+#myUL1{
+  width: 290px;
+  margin: auto;
+}
+#myUL p{
+  font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+margin: 0px;
+padding-top: 10px;
+
+display: flex;
+align-items: center;
+letter-spacing: -0.08px;
+
+/* gray/400 */
+
+color: #A3A3A3;
+}
+#myUL1 p{
+  font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+margin: 0px;
+padding-top: 10px;
+
+display: flex;
+align-items: center;
+letter-spacing: -0.08px;
+
+/* gray/400 */
+
+color: #A3A3A3;
+/* padding-left: 24px */
+}
+#myUL{
+  width: 345px;
+  margin: auto;
+}
+
+#b{
+  background: #000000;
+border: 2px solid #000000;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+/* border-radius: 6px; */
+margin-right: 10px;
+height: 20px;
+width: 20px;
+left: 1px;
+top: 19px;
+border-radius: 6px;
+
+
+
+}
+input[type="checkbox" i]{
+        background-color:black !important;
+        color: white;
+    }
+         
+
+#myUL1 li{
+  margin-top: 20px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+  /* list-style-type: decimal; */
+  
+  /* display: flex;  */
+  align-items: center; 
+  letter-spacing: -0.24px;
+  
+  /* gray/500 */
+  
+  color: #737373;
+}   
+
+::marker {
+
+  font-size: 25px;
+  /* display: flex; */
+  color: black;
+  align-items: center;
+}
+
+                                                                                    /* clock */
+
+
+                                                                                    input[type=time] {
+                                                                                      border: none;
+                                                                                      color: #2a2c2d;
+                                                                                      height: 36px;
+                                                                                      font-size: 14px;
+                                                                                      font-family: helvetica;
+                                                                                      width: 180px;
+                                                                                    }
+                                                                                    
+                                                                                    /* Wrapper around the hour, minute, second, and am/pm fields as well as 
+                                                                                    the up and down buttons and the 'X' button */
+                                                                                    input[type=time]::-webkit-datetime-edit-fields-wrapper {
+                                                                                      display: flex;
+                                                                                    }
+                                                                                    
+                                                                                    /* The space between the fields - between hour and minute, the minute and 
+                                                                                    second, second and am/pm */
+                                                                                    input[type=time]::-webkit-datetime-edit-text {
+                                                                                      padding: 19px 4px;
+                                                                                    }
+                                                                                    
+                                                                                    /* The naming convention for the hour, minute, second, and am/pm field is
+                                                                                    `-webkit-datetime-edit-{field}-field` */
+                                                                                    
+                                                                                    /* Hour */
+                                                                                    input[type=time]::-webkit-datetime-edit-hour-field {
+                                                                                      background-color: #f2f4f5;
+                                                                                      border-radius: 15%;
+                                                                                      padding: 19px 13px;
+                                                                                    }
+                                                                                    
+                                                                                    /* Minute */
+                                                                                    input[type=time]::-webkit-datetime-edit-minute-field {
+                                                                                      background-color: #f2f4f5;
+                                                                                      border-radius: 15%;
+                                                                                      padding: 19px 13px;
+                                                                                    }
+                                                                                    
+                                                                                    /* AM/PM */
+                                                                                    input[type=time]::-webkit-datetime-edit-ampm-field {
+                                                                                      background: #FFFFFF;
+                                                                                      border: 0.5px solid rgba(0, 0, 0, 0.04);
+                                                                                      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+                                                                                      border-radius: 6.93px;
+                                                                                      padding: 19px 13px;
+                                                                                    }
+                                                                                    
+                                                                                    /* 'X' button for resetting/clearing time */
+                                                                                    input[type=time]::-webkit-clear-button {
+                                                                                      display: none;
+                                                                                    }
+                                                                                    
+                                                                                    /* Up/Down arrows for incrementing/decrementing the value */
+                                                                                    input[type=time]::-webkit-inner-spin-button {
+                                                                                      display: none;
+                                                                                    }
+                                                                                    input[type="time"]::-webkit-calendar-picker-indicator { background: none; display:none; }
+
+
+
+#time{
+  /* width: 86px;
+height: 36px; */
+margin-top: 30px;
+
+/* background: rgba(118, 118, 128, 0.12);
+border-radius: 6px */
+}
+
+.day{
+  margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.tody p{
+
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.38px;
+
+/* Label Color / Light / Primary */
+
+color: #000000;
+}
+
+
+
+
+                                /* switch */
+
+                                .switch {
+                                    position: relative;
+                                    float: right;
+                                    
+                                    width: 60px;
+                                    height: 34px;
+                                  }
+                                  
+                                  .switch input { 
+                                    opacity: 0;
+                                    width: 0;
+                                    height: 0;
+                                  }
+                                  
+                                  .slider {
+                                    position: absolute;
+                                    cursor: pointer;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    background-color: #ccc;
+                                    -webkit-transition: .4s;
+                                    transition: .4s;
+                                  }
+                                  .slider:before {
+                                    position: absolute;
+                                    content: "";
+                                    height: 26px;
+                                    width: 26px;
+                                    left: 4px;
+                                    bottom: 4px;
+                                    background-color: white;
+                                    -webkit-transition: .4s;
+                                    transition: .4s;
+                                  }
+                                  
+                                  
+                                  input:checked + .slider {
+                                    background-color: #34C759;
+                                  }
+                                  
+                                  input:focus + .slider {
+                                    box-shadow: 0 0 1px #2196F3;
+                                  }
+                                  input:checked + .slider:before {
+                                    -webkit-transform: translateX(26px);
+                                    -ms-transform: translateX(26px);
+                                    transform: translateX(26px);
+                                  }
+                                  
+                                  
+                                  /* Rounded sliders */
+                                  .slider.round {
+                                    border-radius: 34px;
+                                  }
+                                  
+                                  .slider.round:before {
+                                    border-radius: 50%;
+                                  }
+
+
+                                  /* done */
+.addBtn{
+  margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 46.324607849121094px;
+width: 316px;
+background: #171717;
+border-radius: 11.5812px;
+justify-content: space-evenly;
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 14.0628px;
+line-height: 18px;
+letter-spacing: -0.337508px;
+
+/* Label Dark / Primary */
+
+color: #FFFFFF;
+
+
+}
+.done p{
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.078px;
+
+/* Label Light / Secondary */
+
+color: rgba(60, 60, 67, 0.6);
+}
