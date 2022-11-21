@@ -3,10 +3,12 @@
 body{
   margin: auto;
   padding: 0px;
-  display: inline-table
+  /* display: inline-table */
+  display: flex;
+  width: 410px;
 }
 .homepage{
-  height: 898px;
+  height: auto;
 width: 410px;
 margin: auto;
 border-radius: 0px;
@@ -95,11 +97,12 @@ px
       
     background: white;
     display: none;
-    top: 15px;
-    left: 15px;
+    /* top: 15px;
+    left: 15px; */
     /* margin-top: -183px; */
     /* margin: auto; */
-    position: fixed;
+    /* position: fixed; */
+    margin-left: -410px;
     bottom: 0;
     
      }

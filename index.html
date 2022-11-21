@@ -27,7 +27,7 @@
     </div>
 
 <div class="lisarea" style="margin-top: 35px;">
-  <ul id="myUL">
+  <ul id="myUL" class="myUL">
     <!-- <li><i><input type="checkbox" id="check"></i></li> -->
     <!-- <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li> -->
     </ul>
@@ -40,7 +40,7 @@
   </div>
 </div>
 <div class="lisarea" style="margin-top: 35px;">
-  <ul id="myUL1">
+  <ul id="myUL1" >
     <!-- <li><i><input type="checkbox" id="check"></i></li> -->
     </ul>
 
@@ -118,7 +118,7 @@
 // var button = document.getElementById('addbtn');
 // button.onclick = addItem;
 
-                                                                                          
+                                                                                       
 
 
 
@@ -138,12 +138,12 @@ function closeForm() {
 //   var element = document.getElementById("b");
 //   element.classList.toggle("checked");
 // });
-var list = document.querySelector('li');
-list.addEventListener('click', function(ev) {
-  if (ev.target) {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
+// var list = document.querySelector('li');
+// list.addEventListener('click', function(ev) {
+//   if (ev.target) {
+//     ev.target.classList.toggle('checked');
+//   }
+// }, false);
 
 
 
@@ -155,7 +155,9 @@ function myFunction() {
   var checkBox = document.getElementById("check");
   var text = document.getElementById("text");
   if (checkBox.checked == true){
-    newElement();
+    closeForm();
+    newElement(); 
+    
   } else {
     newElement1();
   }
@@ -170,6 +172,7 @@ function newElement() {
         checkbox.value = 1;
         checkbox.name = "todo[]";
         checkbox.id = "b"
+        checkbox.class = "b1"
         
         
 
@@ -254,12 +257,32 @@ function newElement1() {
       div.style.display = "none";
     }
   }
+  
 }
+// var list = document.querySelector('li');
+// list.addEventListener('click', function(ev) {
+//   if (ev.target) {
+//     ev.target.classList.toggle('checked');
+//   }
+// }, false);
+
+$(function() {
+    $('#b').click(function() {
+        $(this).attr('id', 'b2');
+    });
+});
+
+
+// $('#b').click(function(){  
+//     $(this).addClass( "b1" );
+// });
 
 
 function hide() 
   {
-            document.getElementById("checked").style.display = "none";
+
+    
+            document.getElementById("b2").style.display = "none";
         }
 
 
@@ -287,7 +310,7 @@ function hide()
     
     <div class="done">
        
-        <span onclick=" myFunction() " class="addBtn">Done</span>
+        <span onclick=" myFunction();  " class="addBtn">Done</span>
         <p>If you disable today, the task will be considered as tomorrow</p>
     </div>
   </div>
